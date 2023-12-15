@@ -52,3 +52,4 @@ prediction = model.predict(input_data)[0]
 # Display prediction
 st.subheader("Prediction:")
 st.write(f"The predicted winner is: {'Player 1' if prediction == 1 else 'Player 2'}")
+st.balloons()
